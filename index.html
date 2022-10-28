@@ -7,6 +7,17 @@
     <title>Document</title>
   </head>
   <style>
+    @font-face {
+      font-family: "myFont";
+      src: url("文鼎习字体.ttf") format("truetype");
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .my-font {
+      font-family: "myFont";
+    }
+
     .audio {
       display: none;
     }
@@ -36,7 +47,7 @@
       font-size: 17px;
       line-height: 1.7;
       letter-spacing: 0.034em;
-      font-family: "思源黑体";
+      font-family: "DFKai-SB";
       overflow-y: scroll;
     }
     .box::-webkit-scrollbar {
@@ -45,19 +56,19 @@
   </style>
   <body>
     <div class="box">
-      <div>致爱吃币的朋友们：</div>
-      <p>你看这个页面是不是很漂亮</p>
+      <div class="my-Font">致：都被发哦违反我发我富婆啊我发</div>
       <p></p>
-    </div>
-    <div>
-      <audio
-        src="birthday.mp3"
-        id="aud"
-        autoplay="autoplay"
-        controls="controls"
-        loop="true"
-        preload="auto"
-      ></audio>
+      <div class="audio">
+        <audio
+          src="birthday.mp3"
+          id="aud"
+          autoplay="autoplay"
+          controls="auto"
+          loop="true"
+          preload="auto"
+        ></audio>
+      </div>
+      <p></p>
     </div>
   </body>
 </html>
